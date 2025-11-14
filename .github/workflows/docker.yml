@@ -19,8 +19,8 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          xeefei/x-panel
-          ghcr.io/xeefei/x-panel
+          gaorongxuan14/x-panel
+          ghcr.io/gaorongxuan14/x-panel
         tags: |
           type=ref,event=branch
           type=ref,event=tag
